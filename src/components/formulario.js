@@ -4,8 +4,8 @@ class Formulario extends Component{
 constructor(){
     super()
     this.state={
-        titulo: '',
-        nombre: ''
+        nombre: '',
+        numero_canal: ''
     }
 
     //bind enlaza los objetos
