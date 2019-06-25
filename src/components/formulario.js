@@ -5,7 +5,8 @@ constructor(){
     super()
     this.state={
         nombre: '',
-        numero_canal: ''
+        numero_canal: 0,
+        hd:false
     }
 
     //bind enlaza los objetos
@@ -50,8 +51,8 @@ handleEnvio(e){
                     </div>
                     <div>
                         <input 
-                            type="text"
-                            name="nhd"
+                            type="checkbox"
+                            name="hd"
                             placeholder="HD"
                             onChange={this.handleCampo}
                         />

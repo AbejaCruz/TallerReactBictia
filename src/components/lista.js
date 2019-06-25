@@ -12,7 +12,8 @@ class Listado extends Component{
                     {this.props.tareas.numero_canal}
                 </p>
                 <p>
-                    {this.props.tareas.HD.toString()}
+                    {this.props.tareas.HD.toString()
+                    }
                 </p>
                 <p>
                     {
